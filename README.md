@@ -1,12 +1,110 @@
-# React + Vite
+# CRUD-Peliculas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie management application built with React and Vite. This project allows users to add, filter, favorite, and delete movies through an interactive and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add new movies
+- Delete movies
+- Mark movies as favorites
+- Filter movies by title and genre
+- Responsive user interface
+- Persistent data using LocalStorage
+- State management with Context API
+- Custom React Hooks implementation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+### Frontend
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- CSS3
+
+### State Management
+- Context API
+- Custom Hooks
+
+### Libraries
+- React Icons
+
+---
+
+## Project Structure
+
+```bash
+src
+├── components
+│   ├── Favoritos.jsx
+│   ├── Filtros.jsx
+│   ├── Formulario.jsx
+│   └── Lista.jsx
+├── context
+│   └── MovieContext.jsx
+├── hooks
+│   └── useMovies.jsx
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/CristelMartinez/CRUD-Peliculas.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd CRUD-Peliculas
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Learning Objectives
+
+This project was developed to practice:
+
+- CRUD operations in React
+- Component-based architecture
+- Global state management with Context API
+- Custom Hooks
+- Dynamic filtering
+- Responsive UI design
+- LocalStorage persistence
+
+---
+
+## Future Improvements
+
+- Edit movie information
+- Add movie posters
+- Dark mode
+- API integration
+- Movie ratings system
+- Animated transitions
+
+---
+
+## Author
+
+Cristel Martinez.
